@@ -1,2 +1,2 @@
 # javascript
-Javascript code samples
+Pure Javascript code samples
