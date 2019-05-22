@@ -1,0 +1,113 @@
+{
+    "dir": "ltr",
+    "lang": "ro",
+    "name": "PWA App",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "/index.html",
+    "short_name": "pwaapp",
+    "theme_color": "transparent",
+    "description": "Teste de criação de PWA",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/c820edbc-606c-1745-5fb5-ba2b48bd5351.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/feac162c-d85b-69b2-0f88-671d4f7fa9aa.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d132d24b-508b-8afe-5fa1-969201d20332.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/74b8d4b8-7a44-a5f9-be21-ada921e5d8be.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d8cdaf6e-b0db-cb60-9ef0-729815e35964.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/84673106-fe31-3b67-e61b-eaaec42a8795.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1108bad6-e9e1-5363-54ea-58f1341d6490.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e5978bdb-c3fd-ca19-fba7-cc1653d33494.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ec067489-06fd-b41f-fe9c-a01b85e11867.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1e94560c-f319-9892-07b1-e6058a1f7650.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/43219579-5088-7d12-b5f5-47b60b1ead2d.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/990796c2-d653-11af-c304-28defb127746.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b1d5402e-ca31-097f-06a9-112b747a9156.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3f3f6ec3-9e82-afc5-5171-1eb62c5c55c9.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5da75a62-7e7c-c674-21ef-5b9278181995.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a8d726a6-941d-da30-4578-fc1b17dcbb69.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3e1d7e2b-eaa9-9707-2996-e79ceba3c8b1.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5830b7e5-2a36-bc48-17db-a026862d3ef8.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8ead4570-bae4-8d50-78c3-29e9766ed783.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "generated": true
+}

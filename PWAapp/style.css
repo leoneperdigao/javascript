@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+  color: rgb(0, 122, 163);
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  float: left;
+}
+
+.menu-principal {
+    display: block;
+        float:right;
+}
+
+.menu-principal > ul {
+    list-style: none;
+    background: lightgray;
+    padding: 5px;
+}
+
+.menu-principal > ul > li {
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-weight: bolder;
+  color: rgb(0, 122, 163);
+}
+.menu-principal > ul > li > a, .menu-principal > ul > li > a:link, .menu-principal > ul > li > a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-principal > ul > li:hover {
+    background:  rgb(0, 122, 163);
+    color: white;
+}
+.clearfix {
+  clear: both;
+}
+
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.wrap-contact100 {
+  max-width: 960px;
+  background: #fff;
+  border-radius: 2px;
+  padding: 66px 115px 59px 115px;
+  position: relative;
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.contact100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact100-form-title {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  margin-bottom: 35px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #686868;
+  line-height: 1.2;
+  padding: 0 28px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  margin-top: 10px;
+}
+
+
+/*---------------------------------------------*/
+input.input100 {
+  height: 62px;
+}
+
+
+textarea.input100 {
+  min-height: 162px;
+  padding-top: 19px;
+  padding-bottom: 13px;
+}
+
+.input100:focus {
+  background: #e6e6e6;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.wrap-contact100-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.contact100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #df2351;
+  background: -webkit-linear-gradient(right, #2f91ff, #00c513, #2f91ff, #00c513);
+  background: -o-linear-gradient(right, #2f91ff, #00c513, #2f91ff, #00c513);
+  background: -moz-linear-gradient(right, #2f91ff, #00c513, #2f91ff, #00c513);
+  background: linear-gradient(right, #2f91ff, #00c513, #2f91ff, #00c513);
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 62px;
+
+  font-size: 16px;
+  color: darkslategray;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.wrap-contact100-form-btn:hover .contact100-form-bgbtn {
+  left: 0;
+}
+
